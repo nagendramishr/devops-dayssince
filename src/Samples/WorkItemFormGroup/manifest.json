@@ -1,0 +1,20 @@
+{
+    "contributions": [
+        {
+            "id": "sample-work-item-form-group",
+            "type": "ms.vss-work-web.work-item-form-group",
+            "description": "Shows the number of days since the work item was created",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "Days Old",
+                "uri": "dist/WorkItemFormGroup/index.html",
+                "height": 40
+            }
+        }
+    ],
+    "scopes": [
+        "vso.work"
+    ]
+}
